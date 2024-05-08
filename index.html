@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Graphic Designer</title>
+    <link rel="stylesheet" type="text/css" href="Portfolio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kokoro">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <nav class="nav container" id="nav">
+        <ul class="nav__links1">
+            <li class="nav__item">
+                <li class="dropdown-container">
+                    <div class="Experience-desktop">
+                    <a href="#about-me-section">
+                        Experience
+                    </a>
+                    </div> 
+                    <div class="Experience-mobile">                  
+                     <a class="dropbtn" onclick="dropdownMobile()">
+                        Experience
+                        <i class="fa-solid fa-chevron-down"></i>
+                     </a>
+                     <ul  class="dropdown-content" id="myDropdown">
+                        <li class="dropdown-item-mobile"><a href="bita.html">BITA GmbH</a></li>
+                        <li class="dropdown-item-mobile"><a href="editorial.html">Editorial Ginnun</a></li>
+                        <li class="dropdown-item-mobile"><a href="delta.html">Delta Project</a></li>
+                       </ul>
+                    </div> 
+                     <ul  class="dropdown-menu">
+                      <li class="dropdown-item"><a href="bita.html">BITA GmbH</a></li>
+                      <li class="dropdown-item"><a href="editorial.html">Editorial Ginnun</a></li>
+                      <li class="dropdown-item"><a href="delta.html">Delta Project</a></li>
+                     </ul>
+                  </li>
+              </li>
+          <li id="nav2item" class="nav__item">
+            <a href="#about-me-section" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills-section" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#references-section" class="nav__link">References</a>
+          </li>
+        </ul>
+        <ul class="nav__links2"></ul>
+        <ul class="nav__links3"></ul>
+        <ul class="nav__links4"></ul>
+
+        <a href="#nav" class="nav__hamburguer">
+            <i class="fa-solid fa-bars" class="nav__icon"></i>
+        </a>
+    
+        <a href="#" class="nav__close">
+            <i class="fa-solid fa-xmark" class="nav__icon"></i>
+        </a>
+      </nav>
+    <section class="home">
+        <div class="layer-one">
+            <div class="layer-two">
+                <div class="layer-three">
+                    <h5>
+                        John Doe
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div class="circular-container">
+            <img class="circular-image" src="Imagenes/profile-pic.png" />
+        </div>
+    </section>
+    <h5>Graphic Designer</h5>
+    <section id="experience-section">
+    <section class="section-titles">
+        <div class="dots">
+            <div class="dot-1"></div>
+            <div class="dot-2"></div>
+            <div class="dot-3"></div>
+        </div>     
+        <h4>Experience</h4>
+    </section>
+     <div class="experiences-container">
+        <a href="bita.html">
+        <button>
+            <div class="experiences">
+                <img class="experiences-bita" src="Imagenes/bitalogo.png" />
+                <p class="skills-text">BITA GmbH</p>
+             </div>
+        </button>
+       </a>
+       <a href="editorial.html">
+         <button>
+            <div class="experiences">
+                <img class="experiences-editorial" src="Imagenes/editorial.png" />
+                <p class="skills-text">Editorial Ginnun</p>
+             </div>
+         </button>
+        </a>
+        <a href="delta.html">
+         <button>
+            <div class="experiences">
+                <img class="experiences-delta" src="Imagenes/delta.png" />
+                <p class="skills-text">Delta Project</p>
+             </div>
+         </button>
+        </a>
+     </div>
+    </section>
+    <section id="about-me-section">
+     <section class="section-titles">
+        <div class="dots">
+            <div class="dot-1"></div>
+            <div class="dot-2"></div>
+            <div class="dot-3"></div>
+        </div>      
+        <h4>About Me</h4>
+     </section>
+     <div id="buttonContainer">
+        <button id="button-left" onclick="showTextLeft();">Who I am</button>
+        <button id="button-right" onclick="showRight();">Education</button>
+    </div>
+    <section class="left-about-me">
+        <p id="left-text">
+            Multifaceted designer with 4+ years in graphic design, illustration, and UX/UI. 
+            Dedicated to crafting visual solutions for businesses, literary projects, and seamless digital experiences. 
+            Leveraging personal experience from establishing an independent publishing house, 
+            I strive to create tailored designs that resonate with clients and audiences alike.
+        </p>
+    </section>
+    <section id="about-me-content">
+    <section id="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <div id="slides">
+           <div id="overflow">
+              <div class="inner">
+                 <div class="slide slide_1">
+                    <div class="slide-content">
+                        <div class="slider-titles">
+                            <div id="first-list-dot"></div>
+                            <p>Nueva Esparta University</p>
+                        </div>
+                        <p class="slider-subtitles">Degree in Graphic Design</p>
+                        <div class="where-when">
+                            <p id="text-underlined">Caracas - Venezuela</p>
+                            <p>2014 - 2018</p>
+                        </div>
+                        <p class="slider-text">
+                            I earned a Bachelor of Graphic Designer where I acquired a solid understanding of design principles, color theory, 
+                            typography, and visual communication. 
+                            Throughout my studies, I became proficient in industry-standard design software, such as Adobe Creative Suite, 
+                            and engaged in numerous design projects that helped me develop my skills.
+                        </p>
+                    </div>
+                 </div>
+                 <div class="slide slide_2">
+                    <div class="slide-content">
+                        <div class="slider-titles">
+                            <div id="second-list-dot"></div>
+                            <p>Aspasia S.L.</p>
+                        </div>
+                        <p class="slider-subtitles">Disseny Interficies Mobiles Course</p>
+                        <div class="where-when">
+                            <p id="text-underlined">Barcelona - SPAIN </p>
+                            <p>2021</p>
+                        </div>
+                        <p class="slider-text">
+                            This course allowed me to develop a strong foundation in creating intuitive and visually appealing user interfaces,
+                             using industry-standard tools and techniques. 
+                             As a result, I expanded my skill set and became better equipped to design seamless digital experiences that cater
+                              to the needs of diverse users across various devices.
+                        </p>
+                    </div>
+                 </div>
+                 <div class="slide slide_3">
+                    <div class="slide-content">
+                        <div class="slider-titles">
+                            <div id="third-list-dot"></div>
+                            <p>Iron Hack</p>
+                        </div>
+                        <p class="slider-subtitles">atomic design - ux principles</p>
+                        <div class="where-when">
+                            <p id="text-underlined">barcelona - spain</p>
+                            <p>2020</p>
+                        </div>
+                        <p class="slider-text">
+                            By learning how to break down UI elements into their most basic components
+                            (atoms, molecules, organisms, templates, and pages),
+                            I gained a deeper understanding of how to create and maintain consistent, efficient, and adaptable design systems. 
+                            This enhanced significantly my design process and allowed me to build more cohesive and user-friendly interfaces.
+                        </p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div id="bullets">
+           <label for="slide1"></label>
+           <label for="slide2"></label>
+           <label for="slide3"></label>
+        </div>
+     </section>
+    </section>
+       <section id="skills-section">
+        <section class="section-titles">
+           <div class="dots">
+               <div class="dot-1"></div>
+               <div class="dot-2"></div>
+               <div class="dot-3"></div>
+           </div>
+           
+           <h4>Skills</h4>
+        </section>
+        <section class="skills-buttons">
+         <div class="icon-container">
+            <button onclick="showImageEdition();">
+                <i class="fa-solid fa-pen icons"></i>
+            </button>
+            <button onclick="showUserExperience();">
+                <i class="fa-solid fa-id-badge icons"></i>
+            </button>
+            <button onclick="showVideoEdition();">
+                <i class="fa-sharp fa-solid fa-video icons"></i>
+            </button>
+            <button onclick="showSoftSkills();">
+                <i class="fa-solid fa-heart icons"></i>
+            </button>  
+          </div>
+        </section>
+          <section id="pen-container">
+          <p class="skills-text">Image Edition</p>
+        <section id="slider-image-edition">
+            <input type="radio" name="slider-image-edition" id="slide1-image-edition" checked>
+            <input type="radio" name="slider-image-edition" id="slide2-image-edition">
+            <div id="slides-image-edition">
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="slide slide_1-image-edition">
+                        <div class="slide-content">
+                            <section>
+                                <div class="skills-container">
+                                   <div class="skills-icons-container">
+                                    <img class="program-icon" src="Imagenes/photoshop.png" alt="photoshop icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                   </div>
+                                   <p>Photoshop</p>
+                                </div>
+                                <div class="skills-container">
+                                   <div class="skills-icons-container">
+                                    <img class="program-icon" src="Imagenes/Illustrator.png" alt="Illustrator icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                   </div>
+                                   <p>Illustrator</p>
+                                </div>
+                                <div class="skills-container">
+                                   <div class="skills-icons-container">
+                                    <img class="program-icon" src="Imagenes/Indesign.png" alt="Indesign icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                   </div>
+                                   <p>Indesign</p>
+                                </div>
+                            </section>
+                        </div>
+                     </div>
+                     <div class="slide slide_2-image-edition">
+                        <div class="slide-content">
+                            <section>
+                                <div class="skills-container">
+                                   <div class="skills-icons-container">
+                                    <img class="program-icon" src="Imagenes/medibang.png" alt="Medibang icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                   </div>
+                                   <p>Medibang Paint</p>
+                                </div>
+                                <div class="skills-container">
+                                   <div class="skills-icons-container">
+                                    <img class="program-icon" src="Imagenes/stable.png" alt="Stable diffusion icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                   </div>
+                                   <p>Stable Diffusion</p>
+                                </div>
+                                <div class="skills-container">
+                                   <div class="skills-icons-container">
+                                    <img class="program-icon" src="Imagenes/clipstudio.png" alt="Clip Studio Paint icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                   </div>
+                                   <p>Clip Studio Paint</p>
+                                </div>
+                            </section>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="bullets-image-edition">
+               <label for="slide1-image-edition"></label>
+               <label for="slide2-image-edition"></label>
+            </div>
+         </section>
+        </section>
+        <section id="badge-container">
+            <p class="skills-text">User Experience</p>
+          <section id="slider-user-experience">
+              <input type="radio" name="slider-user-experience" id="slide1-user-experience" checked>
+              <input type="radio" name="slider-user-experience" id="slide2-user-experience">
+              <div id="slides-user-experience">
+                 <div id="overflow">
+                    <div class="inner">
+                       <div class="slide slide_1-user-experience">
+                          <div class="slide-content">
+                              <section>
+                                  <div class="skills-container">
+                                     <div class="skills-icons-container">
+                                      <img class="program-icon" src="Imagenes/Figma.png" alt="Figma icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                     </div>
+                                     <p>Figma</p>
+                                  </div>
+                                  <div class="skills-container">
+                                     <div class="skills-icons-container">
+                                      <img class="program-icon" src="Imagenes/HTMLCSS.png" alt="HTML y CSS icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                     </div>
+                                     <p>HTML5 / CSS3</p>
+                                  </div>
+                                  <div class="skills-container">
+                                     <div class="skills-icons-container">
+                                      <img class="program-icon" src="Imagenes/Chatgpt.png" alt="Chatgpt4 icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                     </div>
+                                     <p>ChatGPT4</p>
+                                  </div>
+                              </section>
+                          </div>
+                       </div>
+                       <div class="slide slide_2-user-experience">
+                          <div class="slide-content">
+                              <section>
+                                  <div class="skills-container">
+                                     <div class="skills-icons-container">
+                                      <img class="program-icon" src="Imagenes/Office.png" alt="Microsoft Office icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                     </div>
+                                     <p>Microsoft Office</p>
+                                  </div>
+                                  <div class="skills-container">
+                                     <div class="skills-icons-container">
+                                      <img class="program-icon" src="Imagenes/Clickup.png" alt="Click Up icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                     </div>
+                                     <p>Click Up</p>
+                                  </div>
+                                  <div class="skills-container">
+                                     <div class="skills-icons-container">
+                                      <img class="program-icon" src="Imagenes/origami.png" alt="Origami Studio icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                      <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                                     </div>
+                                     <p>Origami Studio</p>
+                                  </div>
+                              </section>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+              <div id="bullets-user-experience">
+                 <label for="slide1-user-experience"></label>
+                 <label for="slide2-user-experience"></label>
+              </div>
+           </section>
+          </section>
+          <section id="video-container">
+            <p class="skills-text">Video Edition</p>
+            <section>
+                <div class="skills-container-video">
+                   <div class="skills-icons-container">
+                    <img class="program-icon" src="Imagenes/premier.png" alt="Premier Pro icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                   </div>
+                   <p>Premier Pro</p>
+                </div>
+                <div class="skills-container-video">
+                   <div class="skills-icons-container">
+                    <img class="program-icon" src="Imagenes/aftereffects.png" alt="After Effects icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                   </div>
+                   <p>After Effects</p>
+                </div>
+            </section>
+          </section>
+          <section id="soft-skills-container">
+            <p class="skills-text">Soft Skills</p>
+            <section>
+                <div class="skills-container-soft">
+                   <div class="skills-icons-container">
+                    <p class="soft-text">Creativity</p>
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                   </div>
+                </div>
+                <div class="skills-container-soft">
+                   <div class="skills-icons-container">
+                    <p class="soft-text">Resilience</p>
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                   </div>
+                </div>
+                <div class="skills-container-soft">
+                    <div class="skills-icons-container">
+                    <p class="soft-text">Attention to detail</p>
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    </div>
+                 </div>
+                 <div class="skills-container-soft">
+                    <div class="skills-icons-container">
+                    <p class="soft-text">Empathy</p>
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    </div>
+                 </div>
+                 <div class="skills-container-soft">
+                    <div class="skills-icons-container">
+                    <p class="soft-text">Leadership</p>
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    </div>
+                 </div>
+                 <div class="skills-container-soft">
+                    <div class="skills-icons-container">
+                     <p class="soft-text">Teamwork</p>
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    </div>
+                 </div>
+                 <div class="skills-container-soft">
+                    <div class="skills-icons-container">
+                    <p class="soft-text">Willingness to learn</p>
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                     <img src="Imagenes/YellowStar.png" alt="Yellow star icon">
+                    </div>
+                 </div>
+          </section>
+
+    </section>
+       <section id="references-section">
+        <section class="section-titles">
+            <div class="dots">
+                <div class="dot-1"></div>
+                <div class="dot-2"></div>
+                <div class="dot-3"></div>
+            </div>      
+            <h4>References</h4>
+         </section>
+         <section class="references-container">
+            <div class="references">
+                <div class="reference-icons">
+                    <div class="linkedin-icon-container">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <img class="reference-icon" src="Imagenes/Venflag.png" alt="Venezuelan flag icon">
+                </div>
+                <div class="reference-info">
+                    <p>Senior Python developer</p>
+                    <p class="reference-name">Reference One</p>
+                    <p>Reference1@hotmail.com</p>
+                </div>
+            </div>
+            <div class="references">
+                <div class="reference-icons">
+                    <div class="linkedin-icon-container">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <img class="reference-icon" src="Imagenes/Spainflag.png" alt="Spain flag icon">
+                </div>
+                <div class="reference-info">
+                    <p>Product Designer | DesignOps</p>
+                    <p class="reference-name">Reference Two</p>
+                    <p>Reference2@gmail.com</p>
+                </div>
+            </div>
+            <div class="references">
+                <div class="reference-icons">
+                    <div class="linkedin-icon-container">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <img class="reference-icon" src="Imagenes/Argflag.png" alt="Argentinian flag icon">
+                </div>
+                <div class="reference-info">
+                    <p>IT Specialist</p>
+                    <p class="reference-name">Reference Three</p>
+                    <p>Reference3@gmail.com</p>
+                </div>
+            </div>
+         </section>
+        </section>
+
+         <section class="arrowup-container">
+            <button>
+                <button id="scrollUpButton">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </button>
+         </section>
+
+        <footer>
+            <div class="layer-zero"></div>
+            <div class="layer-one"></div>
+            <div class="layer-two">
+            </div>
+            <div class="layer-three">
+                <section id="socials">
+                    <p>Where you can find me:</p>
+                    <div class="socials-icons-container">
+                        <div class="socials-icons">
+                            <a target="_blank" href="/">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div class="socials-icons">
+                            <a target="_blank" href="/">
+                            <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                            <a target="_blank" href="/">
+                            <img class="footer-icon" src="Imagenes/pixiv.png" alt="pixiv icon">
+                            </a>
+                        <div class="socials-icons">
+                            <a href="">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>                
+                    </div>
+                </section>                
+            </div>  
+            <div class="layer-four">
+                <p>Thank You so much!</p>
+            </div>    
+        </footer>
+        <script src="Portfolio.js"></script>
+</body>
+</html>

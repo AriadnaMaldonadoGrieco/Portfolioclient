@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Graphic Designer</title>
+    <link rel="stylesheet" type="text/css" href="Portfolio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kokoro">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="nav container" id="nav">
+        <ul class="nav__links1">
+            <li class="nav__item">
+                <li class="dropdown-container">
+                    <div class="Experience-desktop">
+                    <a href="#about-me-section">
+                        Experience
+                    </a>
+                    </div> 
+                    <div class="Experience-mobile">                  
+                     <a class="dropbtn" onclick="dropdownMobile()">
+                        Experience
+                        <i class="fa-solid fa-chevron-down"></i>
+                     </a>
+                     <ul  class="dropdown-content" id="myDropdown">
+                        <li class="dropdown-item-mobile"><a href="bita.html">BITA GmbH</a></li>
+                        <li class="dropdown-item-mobile"><a href="editorial.html">Editorial Ginnun</a></li>
+                        <li class="dropdown-item-mobile"><a href="delta.html">Delta Project</a></li>
+                       </ul>
+                    </div> 
+                     <ul  class="dropdown-menu">
+                      <li class="dropdown-item"><a href="bita.html">BITA GmbH</a></li>
+                      <li class="dropdown-item"><a href="editorial.html">Editorial Ginnun</a></li>
+                      <li class="dropdown-item"><a href="delta.html">Delta Project</a></li>
+                     </ul>
+                  </li>
+              </li>
+          <li id="nav2item" class="nav__item">
+            <a href="#about-me-section" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills-section" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#references-section" class="nav__link">References</a>
+          </li>
+        </ul>
+        <ul class="nav__links2"></ul>
+        <ul class="nav__links3"></ul>
+        <ul class="nav__links4"></ul>
+
+        <a href="#nav" class="nav__hamburguer">
+            <i class="fa-solid fa-bars" class="nav__icon"></i>
+        </a>
+    
+        <a href="#" class="nav__close">
+            <i class="fa-solid fa-xmark" class="nav__icon"></i>
+        </a>
+      </nav>
+      <a href="" class="side-button-container">
+        <div class="side-button">
+            <div class="animated-button">
+             <a href="" id="animateButton">
+                <i class="fa-solid fa-location-dot">
+                    <div class="cover"></div>
+                </i>
+             </a>
+            </div>
+                <a href="">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+        </div>
+    </a>
+    <section class="home">
+        <div class="layer-one">
+            <div class="layer-two">
+                <div class="layer-three-bita">
+                    <h5>
+                        BITA GmbH
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="big-bita-logo">
+        <img class="experiences-bita" src="Imagenes/bigbitalogo.png" />
+    </div>
+    <section class="section-titles">
+        <div class="dots">
+            <div class="dot-1"></div>
+            <div class="dot-2"></div>
+            <div class="dot-3"></div>
+        </div>      
+        <h4>Projects</h4>
+     </section>
+     <div id="buttonContainer">
+        <button class="bita-button-left" onclick="showTextLeftBita();">Website 3.0</button>
+        <button class="bita-button-right" onclick="showRightBita();">Factsheet Generator</button>
+    </div>
+    <section id="left-bita">
+     <div class="bita-column">
+        <p class="skills-text-bita">Introduction</p>
+        <p class="text-justified">
+            Taking a stroll in the realm of UX/UI design, 
+            I stumbled upon a golden opportunity to redefine the BITA GmbH commercial website, 
+            in all its fintech glory, back in November 2022.
+        </p>
+        <div class="icon-bita-container">
+            <i class="fa-solid fa-pen icons"></i>
+        </div>
+        <p class="text-centered">
+            As the sole designer, I had the privilege of redesigning the interface, 
+            incorporating a sleek and intuitive design to breathe life into the digital platform.
+        </p>
+        <div class="icon-bita-container">
+            <i class="fa-solid fa-lightbulb"></i>
+        </div>
+        <p class="text-centered">
+            I strived to transform the user experience, 
+            ensuring our clients found the website as smooth to navigate as a Sunday morning drive.
+        </p>
+        <div class="icon-bita-container">
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <p class="text-centered">
+            My personal pièce de résistance was the 'Index Lab'. 
+            A new section dedicated to showcasing our thematic indexes, becoming a testament to our continuous innovation.
+        </p>
+        <div class="bottom-left-bita">
+            <p class="skills-text-bita">Design and Prototyping</p>
+            <p class="text-justified">
+                I plunged headfirst into the design process, starting with rough sketches gradually morphed into sophisticated wireframes. 
+                The finale was a symphony of interactive prototypes that resonated with my vision. 
+                (To see the magic unfold, check out my work).
+            </p>
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel">
+                  <li class="card bita1">
+                     <img  src="Imagenes/tinybita1.png"  draggable="false">
+                  </li>
+                  <li class="card bita2">
+                     <img  src="Imagenes/bita2.png"  draggable="false">
+                  </li>
+                  <li class="card bita3">
+                     <img  src="Imagenes/bita3.png"  draggable="false">
+                  </li>
+                </ul>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+              </div>
+             <p class="skills-text-bita">Challenges</p>
+             <p class="text-justified">
+                Every great adventure has its challenges. 
+                Working with a dedicated developer juggling multiple projects, 
+                clear and precise communication became our secret weapon against time constraints and technical limitations.
+             </p>
+             <p class="skills-text-bita">Implementation and results</p>
+             <p class="text-justified">
+                The beast was tamed, but not alone. 
+                My designs were implemented in perfect harmony with developers and project managers. 
+                And the beast didn't just behave, it performed.
+             </p>
+        </div>
+     </div>
+    </section>
+    <section id="right-bita">
+        <div class="bita-column">
+            <p class="skills-text-bita">Introduction</p>
+            <p class="text-justified">
+                Let's bake a cake called "Efficiency" and say goodbye to the tedious 
+                manual process of creating 'Factsheets' in the sweetest way possible!
+            </p>
+            <div class="icon-bita-container">
+                <i class="fa-solid fa-pen icons"></i>
+            </div>
+            <p class="text-centered">
+                Every great recipe starts with a secret ingredient. 
+                In this case, I set out to find a creative solution to our 'Factsheet' dilemma.
+            </p>
+            <div class="icon-bita-container">
+                <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <p class="text-centered">
+                My goal was to transform design templates into a front-end interface as seamless
+                 as turning dough into a beautifully baked cake.
+            </p>
+            <div class="icon-bita-container">
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-centered">
+                The final touch was to design a new app called 
+                'Factsheets Generator,' our very own digital pastry chef.
+            </p>
+            <div class="bottom-left-bita">
+                <p class="skills-text-bita">Design and Prototyping</p>
+                <p class="text-justified">
+                    Cooking up this solution involved using Figma and its Google Sheet Sync plugin
+                     to create semi-automated processes. 
+                     These were like our digital measuring cups, perfectly filling design templates 
+                     with data and crafting stylized graphs. I also whipped up the interface for 
+                     the new 'Factsheet Generator' to command the API like a seasoned (pun intended) chef.
+                </p>
+             <section id="slider">
+                <input type="radio" name="slider" id="slide1" checked>
+                <input type="radio" name="slider" id="slide2">
+                <input type="radio" name="slider" id="slide3">
+                <div id="slides">
+                   <div id="overflow">
+                      <div class="inner">
+                         <div class="slide slide_1">
+                            <img class="right-bita-img"  src="Imagenes/rightbita1.png"  draggable="false">
+                         </div>
+                         <div class="slide slide_2">
+                            <img class="right-bita-img"  src="Imagenes/right-bita2.png"  draggable="false">
+                         </div>
+                         <div class="slide slide_3">
+                            <img  class="right-bita-img" src="Imagenes/right-bita3.png"  draggable="false">
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <div id="bullets">
+                   <label for="slide1"></label>
+                   <label for="slide2"></label>
+                   <label for="slide3"></label>
+                </div>
+             </section>
+            </div>
+         </div>       
+                 <p class="skills-text-bita">Challenges</p>
+                 <p class="text-justified">
+                    Like any complicated recipe, challenges were on the menu. 
+                    Automating this process was a time-consuming task. But when in a hot kitchen, 
+                    improvise! This is where Figma and its Google Sheets Sync plugin came to our rescue.
+                 </p>
+                 <p class="skills-text-bita">Implementation and results</p>
+                 <p class="text-justified">
+                    From raw ingredients to a baked cake, my designs were implemented 
+                    in tandem with our developers and project managers. 
+                    The results? A gourmet cake of customer satisfaction and efficiency.
+                 </p>
+            </div>
+         </div>
+    </section>
+    <div id="home-button-container">
+        <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+        </a>
+        <p>Home</p>
+    </div>
+         <section class="arrowup-container">
+            <button>
+                <button id="scrollUpButton">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </button>
+         </section>
+
+        <footer>
+            <div class="layer-zero"></div>
+            <div class="layer-one"></div>
+            <div class="layer-two">
+            </div>
+            <div class="layer-three">
+                <section id="socials">
+                    <p>Where you can find me:</p>
+                    <div class="socials-icons-container">
+                        <div class="socials-icons">
+                            <a target="_blank" href="/">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div class="socials-icons">
+                            <a target="_blank" href="/">
+                            <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                            <a target="_blank" href="/">
+                            <img class="footer-icon" src="Imagenes/pixiv.png" alt="pixiv icon">
+                            </a>
+                        <div class="socials-icons">
+                            <a href="">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>                
+                    </div>
+                </section>                
+            </div>  
+            <div class="layer-four">
+                <p>Thank You so much!</p>
+            </div>    
+        </footer>
+        <script src="Portfolio.js"></script>
+</body>
+</html>

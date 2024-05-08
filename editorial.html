@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Graphic Designer</title>
+    <link rel="stylesheet" type="text/css" href="Portfolio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kokoro">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="nav container" id="nav">
+        <ul class="nav__links1">
+            <li class="nav__item">
+                <li class="dropdown-container">
+                    <div class="Experience-desktop">
+                    <a href="#about-me-section">
+                        Experience
+                    </a>
+                    </div> 
+                    <div class="Experience-mobile">                  
+                     <a class="dropbtn" onclick="dropdownMobile()">
+                        Experience
+                        <i class="fa-solid fa-chevron-down"></i>
+                     </a>
+                     <ul  class="dropdown-content" id="myDropdown">
+                        <li class="dropdown-item-mobile"><a href="bita.html">BITA GmbH</a></li>
+                        <li class="dropdown-item-mobile"><a href="editorial.html">Editorial Ginnun</a></li>
+                        <li class="dropdown-item-mobile"><a href="delta.html">Delta Project</a></li>
+                       </ul>
+                    </div> 
+                     <ul  class="dropdown-menu">
+                      <li class="dropdown-item"><a href="bita.html">BITA GmbH</a></li>
+                      <li class="dropdown-item"><a href="editorial.html">Editorial Ginnun</a></li>
+                      <li class="dropdown-item"><a href="delta.html">Delta Project</a></li>
+                     </ul>
+                  </li>
+              </li>
+          <li id="nav2item" class="nav__item">
+            <a href="#about-me-section" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills-section" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#references-section" class="nav__link">References</a>
+          </li>
+        </ul>
+        <ul class="nav__links2"></ul>
+        <ul class="nav__links3"></ul>
+        <ul class="nav__links4"></ul>
+
+        <a href="#nav" class="nav__hamburguer">
+            <i class="fa-solid fa-bars" class="nav__icon"></i>
+        </a>
+    
+        <a href="#" class="nav__close">
+            <i class="fa-solid fa-xmark" class="nav__icon"></i>
+        </a>
+      </nav>
+      <a href="" class="side-button-container">
+        <div class="side-button">
+            <div class="animated-button">
+             <a href="" id="animateButton">
+                <i class="fa-solid fa-location-dot">
+                    <div class="cover"></div>
+                </i>
+             </a>
+            </div>
+                <a href="">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+        </div>
+    </a>
+    <section class="home">
+        <div class="layer-one">
+            <div class="layer-two">
+                <div class="layer-three-bita">
+                    <h5>
+                        Editorial Ginnun
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="big-editorial-logo">
+        <img class="big-editorial" src="Imagenes/bigeditoriallogo.png" />
+    </div>
+    <section class="section-titles">
+        <div class="dots">
+            <div class="dot-1"></div>
+            <div class="dot-2"></div>
+            <div class="dot-3"></div>
+        </div>      
+        <h4>Projects</h4>
+     </section>
+     <div id="buttonContainer">
+        <button class="bita-button-left" onclick="showTextLeftBita();">Brand</button>
+        <button class="bita-button-right" onclick="showRightBita();">Head of Illustrators</button>
+    </div>
+    <section id="left-bita">
+     <div class="bita-column">
+        <p class="skills-text-bita">Introduction</p>
+        <p class="text-justified">
+            The art of branding Editorial Ginnun isn't simply about making a logo look good; 
+            it's about understanding the ethos, culture, and target market of a company. 
+            It's about baking these ingredients into a visual identity that speaks volumes without uttering a word.
+        </p>
+        <div class="icon-bita-container">
+            <i class="fa-solid fa-pen icons"></i>
+        </div>
+        <p class="text-centered">
+            My aim is always to create a brand identity that stands out from the crowd, 
+            that both captures the company's essence and appeals to their target audience.
+        </p>
+        <div class="icon-bita-container">
+            <i class="fa-solid fa-lightbulb"></i>
+        </div>
+        <p class="text-centered">
+            It's important that a brand's design is not just beautiful, 
+            but also encapsulates the company's core values and communicates them effectively.
+        </p>
+        <div class="icon-bita-container">
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <p class="text-centered">
+            I ensure that the visual elements are consistent across all platforms and mediums to 
+            maintain a cohesive brand image.
+        </p>
+        <div class="bottom-left-bita">
+            <p class="skills-text-bita">Project Development</p>
+            <p class="text-justified">
+                This is where I outline my approach to the design process. 
+                It could involve researching the company and their market, brainstorming ideas, 
+                creating mood boards, and sketching logos, before finally creating the visual identity.
+            </p>
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel">
+                  <li class="card bita1">
+                     <img class="right-bita-img"  src="Imagenes/editorialleft1.png"  draggable="false">
+                  </li>
+                  <li class="card bita2">
+                     <img class="right-bita-img" src="Imagenes/editorialright2.png"  draggable="false">
+                  </li>
+                  <li class="card bita3">
+                     <img class="right-bita-img"  src="Imagenes/editorialright3.png"  draggable="false">
+                  </li>
+                </ul>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+              </div>
+             <p class="skills-text-bita">Challenges</p>
+             <p class="text-justified">
+                The challenges that come with branding are unique. 
+                For instance, managing to strike a balance between the client's preferences and 
+                the needs of their target market, or trying to reinvent the brand while maintaining 
+                a sense of familiarity for their existing customers.
+             </p>
+             <p class="skills-text-bita">Implementation and results</p>
+             <p class="text-justified">
+                Here, I would describe how my brand designs were received and implemented, 
+                and the results they brought about.
+             </p>
+        </div>
+     </div>
+    </section>
+    <section id="right-bita">
+        <div class="bita-column">
+            <p class="skills-text-bita">Introduction</p>
+            <p class="text-justified">
+                Illustration is a powerful tool. As an Head of illustrators, 
+                my job is to breathe life into abstract ideas, making them tangible and relatable being 
+                sure to be a guide on the right path to my team.
+            </p>
+            <div class="icon-bita-container">
+                <i class="fa-solid fa-pen icons"></i>
+            </div>
+            <p class="text-centered">
+                My objective was to transform complex concepts into easy-to-understand 
+                visuals that resonate with the target audience.
+            </p>
+            <div class="icon-bita-container">
+                <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <p class="text-centered">
+                As a character illustrator, 
+                I aimed to design characters with distinct personalities that would leave a lasting impression.
+            </p>
+            <div class="icon-bita-container">
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-centered">
+                Implemented a mentorship and feedback-driven environment, 
+                fostering continuous skill development and ensuring consistent illustration quality, 
+                leading to a 20% increase in positive client reviews and improved team collaboration
+            </p>
+            <div class="bottom-left-bita">
+                <p class="skills-text-bita">Project Development</p>
+                <p class="text-justified">
+                    My approach to illustration is like weaving together a visual symphony. 
+                    Everything starts by delving deep into the context, absorbing the narrative, 
+                    and catching the emotional undertones.
+                    As the Head of Illustrators, I always instilled in my team the importance of this 
+                    initial connection. Then, during the sketching phase, 
+                    I play with compositions and experiment with forms and silhouettes until I hit 
+                    the right note. I frequently shared this exploration with my team, 
+                    inviting their perspectives and nudging them to stretch their imaginations. 
+                    The final stage is a dance of colors and textures. 
+                    Here, I pour in detail and depth, bringing the draft to life as a luminous 
+                    work of art. This process is not just a personal journey for me but also one 
+                    I've led my team through, watching as simple ideas bloom into evocative 
+                    illustrations.
+                </p>
+                <section id="slider">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <div id="slides">
+                       <div id="overflow">
+                          <div class="inner">
+                             <div class="slide slide_1">
+                                <img  src="Imagenes/editorialright1.png"  draggable="false">
+                             </div>
+                             <div class="slide slide_2">
+                                <img  src="Imagenes/editorialright2.png"  draggable="false">
+                             </div>
+                             <div class="slide slide_3">
+                                <img  src="Imagenes/editorialright3.png"  draggable="false">
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                    <div id="bullets">
+                       <label for="slide1"></label>
+                       <label for="slide2"></label>
+                       <label for="slide3"></label>
+                    </div>
+                 </section>
+                 <p class="skills-text-bita">Implementation and results</p>
+                 <p class="text-justified">
+                    I would discuss how my illustrations were applied and their impact. 
+                    This could include their use in marketing materials, website content, 
+                    product designs, comics, or any other mediums. 
+                    The impact could be measured in terms of the feedback received, 
+                    how well they conveyed the intended message, and how they contributed to the 
+                    overall design and aesthetics of the project.
+                 </p>
+            </div>
+         </div>
+    </section>
+    <div id="home-button-container">
+        <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+        </a>
+        <p>Home</p>
+    </div>
+         <section class="arrowup-container">
+            <button>
+                <button id="scrollUpButton">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </button>
+         </section>
+
+        <footer>
+            <div class="layer-zero"></div>
+            <div class="layer-one"></div>
+            <div class="layer-two">
+            </div>
+            <div class="layer-three">
+                <section id="socials">
+                    <p>Where you can find me:</p>
+                    <div class="socials-icons-container">
+                        <div class="socials-icons">
+                            <a target="_blank" href="/">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div class="socials-icons">
+                            <a target="_blank" href="/">
+                            <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                            <a target="_blank" href="/">
+                            <img class="footer-icon" src="Imagenes/pixiv.png" alt="pixiv icon">
+                            </a>
+                        <div class="socials-icons">
+                            <a href="">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>                
+                    </div>
+                </section>                
+            </div>  
+            <div class="layer-four">
+                <p>Thank You so much!</p>
+            </div>    
+        </footer>
+        <script src="Portfolio.js"></script>
+</body>
+</html>

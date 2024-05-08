@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Graphic Designer</title>
+    <link rel="stylesheet" type="text/css" href="Portfolio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kokoro">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="nav container" id="nav">
+        <ul class="nav__links1">
+            <li class="nav__item">
+                <li class="dropdown-container">
+                    <div class="Experience-desktop">
+                    <a href="#about-me-section">
+                        Experience
+                    </a>
+                    </div> 
+                    <div class="Experience-mobile">                  
+                     <a class="dropbtn" onclick="dropdownMobile()">
+                        Experience
+                        <i class="fa-solid fa-chevron-down"></i>
+                     </a>
+                     <ul  class="dropdown-content" id="myDropdown">
+                        <li class="dropdown-item-mobile"><a href="bita.html">BITA GmbH</a></li>
+                        <li class="dropdown-item-mobile"><a href="editorial.html">Editorial Ginnun</a></li>
+                        <li class="dropdown-item-mobile"><a href="delta.html">Delta Project</a></li>
+                       </ul>
+                    </div> 
+                     <ul  class="dropdown-menu">
+                      <li class="dropdown-item"><a href="bita.html">BITA GmbH</a></li>
+                      <li class="dropdown-item"><a href="editorial.html">Editorial Ginnun</a></li>
+                      <li class="dropdown-item"><a href="delta.html">Delta Project</a></li>
+                     </ul>
+                  </li>
+              </li>
+          <li id="nav2item" class="nav__item">
+            <a href="#about-me-section" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills-section" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#references-section" class="nav__link">References</a>
+          </li>
+        </ul>
+        <ul class="nav__links2"></ul>
+        <ul class="nav__links3"></ul>
+        <ul class="nav__links4"></ul>
+
+        <a href="#nav" class="nav__hamburguer">
+            <i class="fa-solid fa-bars" class="nav__icon"></i>
+        </a>
+    
+        <a href="#" class="nav__close">
+            <i class="fa-solid fa-xmark" class="nav__icon"></i>
+        </a>
+      </nav>
+      <a href="" class="side-button-container">
+        <div class="side-button">
+            <div class="animated-button">
+             <a href="" id="animateButton">
+                <i class="fa-solid fa-location-dot">
+                    <div class="cover"></div>
+                </i>
+             </a>
+            </div>
+                <a href="">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+        </div>
+    </a>
+    <section class="home">
+        <div class="layer-one">
+            <div class="layer-two">
+                <div class="layer-three-bita">
+                    <h5>
+                        Delta Project
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="big-delta-logo">
+        <img class="big-delta" src="Imagenes/Bigdelta.png" />
+    </div>
+    <section class="section-titles">
+        <div class="dots">
+            <div class="dot-1"></div>
+            <div class="dot-2"></div>
+            <div class="dot-3"></div>
+        </div>      
+        <h4>Projects</h4>
+     </section>
+     <div id="buttonContainer">
+        <button class="bita-button-left" onclick="showTextLeftBita();">The Interface</button>
+        <button class="bita-button-right" onclick="showRightBita();">Product Management</button>
+    </div>
+    <section id="left-bita">
+     <div class="bita-column">
+        <p class="skills-text-bita">Introduction</p>
+        <p class="text-justified">
+            Travel back to the early 2000s Spain, where the story of 'Delta: Kaleidoscopic Girls' 
+            unfolds. It's a vibrant visual novel with a twist of humor and romance, demanding an 
+            interface that not only reminisces of the era but also provides a user-friendly experience
+             to keep the audience engaged. We didn't just want to blend into the crowd; 
+             we wanted to stand out, all while preserving the spirit of visual novels.
+        </p>
+        <div class="icon-bita-container">
+            <i class="fa-solid fa-pen icons"></i>
+        </div>
+        <p class="text-centered">
+            Despite the conventions in visual novel design, my goal was to inject a refreshing twist, 
+            enabling 'Delta: Kaleidoscopic Girls' to stand head and shoulders above its contemporaries
+             without disrupting the gaming logic.
+        </p>
+        <div class="icon-bita-container">
+            <i class="fa-solid fa-lightbulb"></i>
+        </div>
+        <p class="text-centered">
+            With exceptional artistry at my disposal, I sought to elevate the game's visual 
+            experience by designing a user interface that would amplify the stunning character 
+            art and immerse players deeper into the game's narrative.
+        </p>
+        <div class="icon-bita-container">
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <p class="text-centered">
+            I aimed to provide an improved user experience by designing intuitive interfaces that 
+            would allow seamless interaction with these mechanics.
+        </p>
+        <div class="bottom-left-bita">
+            <p class="skills-text-bita">Design and Prototyping</p>
+            <p class="text-justified">
+                With a palette borrowed from the characters' colors and a strong bond with the 
+                developers, the UI design process was an immersive journey. 
+                Together, we endeavored to translate the rich narrative of 'Delta: Kaleidoscopic Girls'
+                 into a visually enticing story.
+            </p>
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel">
+                  <li class="card bita1">
+                     <img class="right-bita-img"  src="Imagenes/deltaleft1.png"  draggable="false">
+                  </li>
+                  <li class="card bita2">
+                     <img class="right-bita-img" src="Imagenes/deltaleft2.png"  draggable="false">
+                  </li>
+                  <li class="card bita3">
+                     <img class="right-bita-img"  src="Imagenes/deltaleft3.png"  draggable="false">
+                  </li>
+                </ul>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+              </div>
+             <p class="skills-text-bita">Challenges</p>
+             <p class="text-justified">
+                Stepping into the gaming world was like visiting a new country. 
+                Familiar yet strangely different, and the locals (aka the gaming community) are 
+                unforgiving critics. However, employing the universal principles of design and UX/UI,
+                 we navigated this exciting new terrain successfully.
+             </p>
+             <p class="skills-text-bita">Implementation and results</p>
+             <p class="text-justified">
+                The implementation phase felt like watching a painting come alive. 
+                With each design iteration and constant collaboration with the team, we saw our 
+                visual storytelling taking shape. The results? Check it here.
+             </p>
+        </div>
+     </div>
+    </section>
+    <section id="right-bita">
+        <div class="bita-column">
+            <p class="skills-text-bita">Introduction</p>
+            <p class="text-justified">
+                Navigating the intoxicating and challenging realm of product management for Delta:
+                 Kaleidoscopic Girls, a humor-filled visual novel, was like conducting a symphony of 
+                 creativity set in the backdrop of Spain's early 2000s.
+            </p>
+            <div class="icon-bita-container">
+                <i class="fa-solid fa-pen icons"></i>
+            </div>
+            <p class="text-centered">
+                I aimed to blend together the often contrasting worlds of design, coding, 
+                and storytelling, to create a game that stands out in a crowded marketplace.
+            </p>
+            <div class="icon-bita-container">
+                <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <p class="text-centered">
+                In a symphony of sameness, my goal was to steer our product in a direction that would
+                 break the mold of conventional visual novels, without losing the inherent charm of 
+                 the genre.
+            </p>
+            <div class="icon-bita-container">
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-centered">
+                Creating an engaging, user-friendly interface that still oozed the aesthetics 
+                of our unique art style was a paramount objective.
+            </p>
+            <div class="bottom-left-bita">
+                <p class="skills-text-bita">Project Development</p>
+                <p class="text-justified">
+                    My role involved wearing multiple hats, from managing the project timeline, 
+                    coordinating the workflow, and ensuring seamless communication between different
+                     facets of the project, to seeing the novel's charming humor brought to life.
+                </p>
+                <section id="slider">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <div id="slides">
+                       <div id="overflow">
+                          <div class="inner">
+                             <div class="slide slide_1">
+                                <img class="right-bita-img"  src="Imagenes/deltaright1.png"  draggable="false">
+                             </div>
+                             <div class="slide slide_2">
+                                <img class="right-bita-img"  src="Imagenes/deltaright2.png"  draggable="false">
+                             </div>
+                             <div class="slide slide_3">
+                                <img class="right-bita-img"  src="Imagenes/deltaright3.png"  draggable="false">
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                    <div id="bullets">
+                       <label for="slide1"></label>
+                       <label for="slide2"></label>
+                       <label for="slide3"></label>
+                    </div>
+                 </section>
+                 <p class="skills-text-bita">Challenges</p>
+                 <p class="text-justified">
+                    Stepping into the shoes of a product manager for a multifaceted project like 
+                    Delta brought unique challenges. My design instincts often had to be negotiated 
+                    with practicality, the constraints of technology, and the never-ending tick-tock
+                     of the project clock.
+                 </p>
+                 <p class="skills-text-bita">Implementation and results</p>
+                 <p class="text-justified">
+                    The implementation phase saw the convergence of multiple aspects of the project. 
+                    Balancing aesthetic quality with functionality, and overseeing the developer's
+                     work to ensure that our vision was faithfully translated, were tasks of paramount
+                      importance.
+                 </p>
+            </div>
+         </div>
+    </section>
+    <div id="home-button-container">
+        <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+        </a>
+        <p>Home</p>
+    </div>
+         <section class="arrowup-container">
+            <button>
+                <button id="scrollUpButton">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </button>
+         </section>
+
+        <footer>
+            <div class="layer-zero"></div>
+            <div class="layer-one"></div>
+            <div class="layer-two">
+            </div>
+            <div class="layer-three">
+                <section id="socials">
+                    <p>Where you can find me:</p>
+                    <div class="socials-icons-container">
+                        <div class="socials-icons">
+                            <a target="_blank" href="/">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div class="socials-icons">
+                            <a target="_blank" href="/">
+                            <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                            <a target="_blank" href="/">
+                            <img class="footer-icon" src="Imagenes/pixiv.png" alt="pixiv icon">
+                            </a>
+                        <div class="socials-icons">
+                            <a href="">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>                
+                    </div>
+                </section>                
+            </div>  
+            <div class="layer-four">
+                <p>Thank You so much!</p>
+            </div>    
+        </footer>
+        <script src="Portfolio.js"></script>
+</body>
+</html>
